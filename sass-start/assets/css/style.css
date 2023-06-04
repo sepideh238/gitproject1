@@ -1,3 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+@font-face {
+  font-family: "myfont";
+  src: url(../myfont/Iranian\ Sans.ttf);
+  font-weight: bold;
+}
+div {
+  font-family: "myfont";
+}
+
+.container-first {
+  background-image: url(../p-5.JPG);
+  padding: 1rem;
+}
+.container-first .btn-primary {
+  text-align: center;
+  background-color: rgba(162, 160, 160, 0.5);
+  color: black;
+  border-radius: 10px;
+  box-shadow: 10px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#navbarSupportedContent ul li a {
+  color: black;
+}
+
+.container-second {
+  background-color: rgb(249, 238, 252);
+}
+.container-second p {
+  text-align: justify;
+}
+
+.container-third {
+  background-color: rgb(249, 238, 252);
+  border: 2px solid rgb(253, 249, 249);
+}
+.container-third p {
+  text-align: justify;
+}
+
+.container-forth {
+  background-color: rgb(249, 238, 252);
+}
+
+.footer {
+  background-color: #565454;
+  padding: 5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

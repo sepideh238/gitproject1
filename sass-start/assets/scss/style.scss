@@ -1,0 +1,57 @@
+@import "./variabels";
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+font-family: "myfont";
+src: url(../myfont/Iranian\ Sans.ttf);
+font-weight: bold;
+}
+ div{
+    font-family: "myfont";
+}
+.container-first{
+    background-image: url(../p-5.JPG);
+    padding: 1rem;
+    .btn-primary{
+text-align: center;
+background-color: $third-color;
+color:$dark-color;
+border-radius: 10px;
+box-shadow: 10px;
+font-weight: bolder;
+font-size: large;
+    }
+}
+#navbarSupportedContent{
+    ul{
+        li{
+            a{
+               color: $dark-color;
+            }
+        }
+    }
+}
+
+.container-second{
+    background-color:$primery-color;
+    p{
+        text-align: justify;
+    }
+}
+.container-third{
+    background-color:$primery-color;
+   border: 2px solid rgb(253, 249, 249);
+   p{
+    text-align: justify;
+   }
+}
+.container-forth{
+    background-color:$primery-color;
+}
+
+.footer{
+    background-color: $secondery-color;
+    padding: 5rem;
+}
